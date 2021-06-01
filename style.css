@@ -33,6 +33,12 @@ body {
   color: #cd6326;
 }
 
+span,
+input,
+label {
+  display: none;
+}
+
 .navigation :hover {
   color: #cd6326;
 }
@@ -456,4 +462,61 @@ button {
   margin: 0px;
   padding: 0px;
   margin-right: 27px;
+}
+
+@media (max-width: 320px) {
+  .main,
+  .content,
+  .footer {
+    width: 320px;
+    height: 568px;
+  }
+
+  .logo {
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 25px;
+  }
+
+  .home_btn {
+    display: none;
+  }
+
+  .main span {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 25px;
+    width: 30px;
+    height: 4px;
+    background-color: #cd6326;
+  }
+
+  .main span::before,
+  .main span::after {
+    content: "";
+  }
+  .main span::before {
+    display: block;
+    transform: translateY(-10px);
+    right: 25px;
+    width: 30px;
+    height: 4px;
+    background-color: #cd6326;
+  }
+  .main span::after {
+    display: block;
+    transform: translateY(6px);
+    right: 25px;
+    width: 30px;
+    height: 4px;
+    background-color: #cd6326;
+  }
+  .navigation ul {
+    display: block;
+    position: fixed;
+    box-sizing: border-box;
+    width: 200px;
+    background-color: rgb(230, 188, 97);
+  }
 }
