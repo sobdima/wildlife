@@ -1,3 +1,9 @@
+html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   background-color: gray;
@@ -464,22 +470,40 @@ button {
   margin-right: 27px;
 }
 
-@media (max-width: 320px) {
+/*---media---*/
+@media (max-width: 720px) {
   .main,
   .content,
   .footer {
-    width: 320px;
+    width: 720px;
     height: 568px;
+  }
+
+  .home_btn,
+  .navigation,
+  .main_info {
+    display: none;
+  }
+  .content h4,
+  h5,
+  h2,
+  p {
+    display: none;
+  }
+  .slider,
+  .search,
+  .note {
+    display: none;
+  }
+  .footer a,
+  ul {
+    display: none;
   }
 
   .logo {
     width: 50px;
     margin-top: 10px;
     margin-left: 25px;
-  }
-
-  .home_btn {
-    display: none;
   }
 
   .main span {
