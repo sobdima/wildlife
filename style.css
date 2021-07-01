@@ -290,15 +290,17 @@
 /*adaptive layout*/
 @media (max-width: 640px) {
   .header {
-    background: #666666;
+    background: url("assets/rectangle.jpg") no-repeat;
+    background-size: 100vh;
+    background-position: 50% 0%;
   }
 
   .header_top {
-    padding-top: 10px;
+    padding-top: 20px;
   }
 
   .wrap {
-    max-width: 540px;
+    max-width: 560px;
   }
 
   .header_logo {
@@ -306,13 +308,14 @@
   }
 
   .header_logo a {
-    font-size: 18px;
+    font-size: 30px;
     text-transform: uppercase;
-    color: #ff0000;
+    color: #f7f7f7;
+    margin-top: -5px;
   }
 
   .header_logo img {
-    width: 34px;
+    width: 50px;
   }
 
   .header_sidebar {
@@ -345,33 +348,33 @@
   }
 
   .header_main {
-    margin-top: 40px;
+    margin-top: 70px;
   }
 
   .header_main .paragraph {
-    font-size: 32px;
+    font-size: 40px;
     letter-spacing: 2px;
     color: #cd6326;
   }
 
   .header_main .text {
-    margin-top: 25px;
-    width: 274px;
-    height: 108px;
-    font-size: 13px;
+    margin-top: 30px;
+    width: 290px;
+    height: 120px;
+    font-size: 18px;
     line-height: 27px;
     color: #f7f7f7;
   }
 
   .header_main button {
-    margin-top: 25px;
-    width: 100px;
-    height: 40px;
+    margin-top: 70px;
+    width: 160px;
+    height: 60px;
     background: #cd6326;
     border-radius: 5px;
     border: none;
     font-family: Roboto;
-    font-size: 13px;
+    font-size: 23px;
     line-height: 27px;
     color: #f7f7f7;
   }
