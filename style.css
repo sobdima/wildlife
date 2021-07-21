@@ -288,10 +288,11 @@
 }
 
 /*adaptive layout*/
-@media (max-width: 640px) {
+@media (max-width: 720px) {
   .header {
     background: url("assets/rectangle2.jpg") no-repeat;
-    background-size: 45vh;
+    background-size: cover;
+    height: 100vh;
   }
 
   .header_top {
