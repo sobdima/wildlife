@@ -300,18 +300,8 @@
   }
 
   .header {
+    background: url("assets/rectangle2.jpg") center no-repeat;
     background-position: 48%;
-  }
-
-  .fon {
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.301);
-    z-index: 0;
   }
 
   .header_sidebar {
@@ -321,7 +311,6 @@
   .header_logo {
     margin-left: 5%;
     margin-top: 5%;
-    z-index: 1;
   }
 
   .header_main {
